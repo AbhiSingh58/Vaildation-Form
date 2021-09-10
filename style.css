@@ -1,0 +1,118 @@
+ body {
+            background-color: rgb(88, 85, 85);
+            color: rgb(14, 14, 14);
+        }
+
+        .container {
+            border-radius: 10px;
+            border: 2px solid rebeccapurple;
+            background-color: rgb(187, 201, 243);
+            display: inline-block;
+            position: absolute;
+            margin: auto;
+
+            left: 38%;
+            margin-top: 75px;
+            padding: 14px 58px 29px 58px;
+
+        }
+
+        .form {
+            text-align: center;
+        }
+
+        h2 {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-decoration: underline overline dotted;
+            text-align: center;
+        }
+
+        .form-parts {
+            position: relative;
+            margin: 28px 0px 13px 0px;
+
+        }
+
+        #email {
+            height: 25px;
+            border-radius: 7px;
+        }
+
+        #pass {
+            height: 25px;
+            border-radius: 7px;
+        }
+
+        #name {
+            height: 25px;
+            border-radius: 7px;
+        }
+
+        #vpass {
+            height: 25px;
+            border-radius: 7px;
+        }
+
+        label {
+            position: absolute;
+            left: 2%;
+            font-size: 20px;
+        }
+
+        #b1 {
+            width: 176px;
+            height: 29px;
+            margin: 28px 0px 0px 0px;
+            border-radius: 7px;
+            background-color: rgb(240, 237, 233);
+            color: black;
+            font-size: 19px;
+        }
+
+        #b1:hover {
+            background-color: rgb(248, 239, 227);
+        }
+
+        .form-parts small {
+            color: #e74c3c;
+            position: absolute;
+            bottom: -15px;
+            left: 4px;
+            visibility: hidden;
+        }
+
+
+        .form-parts i{
+            visibility: hidden;
+            position: absolute;
+            top: 28px;
+            right: 8px;
+        }
+
+        .noerror i.fa-check-circle {
+          
+            color: #2ecc71;
+            visibility: visible;
+        }
+
+        .error i.fa-exclamation-circle {
+          
+            color: #e74c3c;
+            visibility: visible;
+        }
+
+
+        .error small {
+            visibility: visible;
+            font-weight: 300;
+
+        }
+
+        .noerror input {
+            border: 2px solid rgb(62, 251, 62);
+        }
+
+        .error input {
+            border: 2px solid red;
+        }
+    </style>
